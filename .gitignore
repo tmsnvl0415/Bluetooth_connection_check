@@ -1,6 +1,7 @@
-# 자동 생성되는 리포트 파일 제외
+# 자동 생성되는 파일들
 bluetooth_summary_*.xlsx
+bluetooth_connect_report.txt
 
-# 파이썬 캐시 및 임시 파일 제외
+# Python 캐시 파일
 __pycache__/
 *.pyc
