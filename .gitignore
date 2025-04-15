@@ -1,0 +1,6 @@
+# 자동 생성되는 리포트 파일 제외
+bluetooth_summary_*.xlsx
+
+# 파이썬 캐시 및 임시 파일 제외
+__pycache__/
+*.pyc
