@@ -43,6 +43,9 @@ python bluetooth_check.py
   └ 상태/우선순위별로 이번 주에 생성된 이슈만 따로 정리한 표
 - 누적 이슈 커브 그래프 (자동 이미지 삽입)
   └ Total Bug / Resolved / Not Resolved 추이를 날짜별 선그래프로 시각화
+- bluetooth_connect_report.txt
+  └ 스크립트 실행 중 이어폰 연결/미연결 상태가 시간별로 기록된 로그 파일
+
 
 
 ## 파일 구조 예시
@@ -53,7 +56,9 @@ python bluetooth_check.py
  ┣ 📄 run_bt_check.bat               → 자동 실행용 배치 파일 (더블클릭 실행)
  ┣ 📄 README.md                      → 프로젝트 설명 문서
  ┣ 📄 .gitignore                     → 자동 생성 리포트 제외 설정
+ ┣ 📄 bluetooth_connect_report.txt   → 실시간 연결 로그 기록 파일 (자동 생성됨)
  ┗ 📄 bluetooth_summary_*.xlsx       → 실행 시 자동 생성되는 리포트 파일들
+
 ```
 
 
