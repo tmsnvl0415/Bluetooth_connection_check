@@ -49,10 +49,11 @@ python bluetooth_check.py
 
 ```
 📁 Bluetooth_connection_check/
- ┣ 📄 bluetooth_check.py           → 블루투스 연결 상태 모니터링 메인 스크립트
- ┣ 📄 run_bt_check.bat             → 자동 실행용 배치 파일 (더블클릭 실행)
- ┣ 📄 README.md                    → 프로젝트 설명 문서
- ┗ 📄 bluetooth_summary_YYYYMMDD_HHMM.xlsx (자동 생성됨)  
+ ┣ 📄 Bluetooth_connect.py           → 블루투스 연결 상태 모니터링 메인 스크립트
+ ┣ 📄 run_bt_check.bat               → 자동 실행용 배치 파일 (더블클릭 실행)
+ ┣ 📄 README.md                      → 프로젝트 설명 문서
+ ┣ 📄 .gitignore                     → 자동 생성 리포트 제외 설정
+ ┗ 📄 bluetooth_summary_*.xlsx       → 실행 시 자동 생성되는 리포트 파일들
 ```
 
 
