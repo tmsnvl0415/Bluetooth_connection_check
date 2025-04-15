@@ -1,6 +1,6 @@
 # 자동 생성되는 파일들
 bluetooth_summary_*.xlsx
-bluetooth_connect_report.txt
+bluetooth_connect_report_*.txt
 
 # Python 캐시 파일
 __pycache__/
