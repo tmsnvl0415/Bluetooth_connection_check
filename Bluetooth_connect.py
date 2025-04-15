@@ -12,7 +12,7 @@ from openpyxl.styles import Alignment, Font, Border, Side
 client = AdbClient(host="127.0.0.1", port=5037)
 
 # 파일 경로
-log_path = 'bluetooth_connect_report.txt'
+log_path = f'bluetooth_connect_report_{datetime.now().strftime("%Y%m%d_%H%M")}.txt'
 summary_path = f'bluetooth_summary_{datetime.now().strftime("%Y%m%d_%H%M")}.xlsx'
 
 connected_seconds = 0
