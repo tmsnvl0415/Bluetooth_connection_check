@@ -8,7 +8,7 @@
 
 - 이어폰 연결 상태를 주기적으로 체크
 - 총 연결 시간 / 미연결 시간 자동 계산
-- 종료 시점에 Excel 리포트 자동 생성 (`bluetooth_summary_YYYYMMDD_HHMM.xlsx`)
+- 종료 시점에 Excel 리포트 자동 생성 (`bluetooth_summary_*.xlsx`)
 - 배치 파일 `.bat`로 실행 가능
 
 
@@ -38,13 +38,13 @@ python bluetooth_check.py
 
 - 프로젝트 이름, 전체 이슈 수, 잔여 이슈 수 요약
 - 전체 이슈 요약 테이블
-  └ 이벤트 단계(DVT/EVT 등) × 우선순위(A~D) × 상태(Open~Closed) 별로 정리된 표
+  - 이벤트 단계(DVT/EVT 등) × 우선순위(A~D) × 상태(Open~Closed) 별로 정리된 표
 - 이번 주 등록 이슈 테이블
-  └ 상태/우선순위별로 이번 주에 생성된 이슈만 따로 정리한 표
+  - 상태/우선순위별로 이번 주에 생성된 이슈만 따로 정리한 표
 - 누적 이슈 커브 그래프 (자동 이미지 삽입)
-  └ Total Bug / Resolved / Not Resolved 추이를 날짜별 선그래프로 시각화
+  - Total Bug / Resolved / Not Resolved 추이를 날짜별 선그래프로 시각화
 - bluetooth_connect_report.txt
-  └ 스크립트 실행 중 이어폰 연결/미연결 상태가 시간별로 기록된 로그 파일
+  - 스크립트 실행 중 이어폰 연결/미연결 상태가 시간별로 기록된 로그 파일
 
 
 
@@ -63,6 +63,5 @@ python bluetooth_check.py
 
 
 ## 👩‍💻 작성자
-김예지  
-SQA Engineer
-GitHub: [@tmsnvl0415](https://github.com/tmsnvl0415)
+- 김예지 (SQA Engineer)
+- GitHub: [@tmsnvl0415](https://github.com/tmsnvl0415)
